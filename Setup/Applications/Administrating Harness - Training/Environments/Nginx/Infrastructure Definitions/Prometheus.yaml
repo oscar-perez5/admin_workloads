@@ -5,5 +5,5 @@ deploymentType: KUBERNETES
 infrastructure:
 - type: DIRECT_KUBERNETES
   cloudProviderName: AKS Kubernetes Cluster
-  namespace: oscar-prometheus
+  namespace: oscar-prometheus2
   releaseName: release-${infra.kubernetes.infraId}
